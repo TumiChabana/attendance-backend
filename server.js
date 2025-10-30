@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 // CORS configuration - CRITICAL FIX
 app.use(cors({
-    origin: ['https://your-username.github.io', 'http://localhost:3000'],
+    origin: ['https://TumiChabana.github.io', 'http://localhost:3000'],
     credentials: true
 }));
 
